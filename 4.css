@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+aside {
+    width: 20vw;
+    background: darkred;
+}
+main {
+    flex: 1;
+    background: rgb(222, 236, 91);
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.media-body {
+    flex: 1;
+    height: 100%;
+}
+
+.media-object {
+    width: 400px;
+    margin: 20px;
+}
+.media-body h3 {
+    background: darksalmon;
+    height: 100px;
+    margin: 20px;
+}
+.media-body p {
+    height: 80%;
+    background: darkseagreen;
+    margin: 20px;
+}

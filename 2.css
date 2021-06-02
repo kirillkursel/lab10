@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    background-color: rgb(180, 219, 157);
+    height: 80px;
+    align-items: center;
+    margin: 15px 0px;
+}
+.row_cell {
+    height: 70%;
+    flex: 1;
+    background-color: cornflowerblue;
+    margin: 5px;
+}
+
+.cell-4 {
+    flex: 4;
+}
+
+.cell-3 {
+    flex: 3;
+}
+

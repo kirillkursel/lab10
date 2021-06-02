@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, footer {
+    height: 20vh;
+    background: rgb(43, 194, 111);
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+nav, aside {
+    width: 20vw;
+    background-color: darkblue;
+}
+
+article {
+    flex: 1;
+    background: darkorange;
+}
+
+nav {
+    order: -1;
+}
